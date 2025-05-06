@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>La boucle while</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <h1><a href="index.html">🐍 PythonIntro</a></h1>
+        <ul>
+            <li><a href="variables.html">Variables</a></li>
+            <li><a href="input.html">Entrée</a></li>
+            <li><a href="conditions.html">Conditions</a></li>
+            <li><a href="math.html">Math</a></li>
+            <li><a href="loops.html">Loops</a></li>
+            <li><a href="while.html">Boucle while</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>La boucle while</h2>
+        
+        <section class="card">
+            <h3>La boucle <code>while</code></h3>
+            <p>Elle répète un bloc tant qu’une condition est vraie.</p>
+            <pre><code>compteur = 0
+while compteur < 5:
+    print(compteur)
+    compteur += 1</code></pre>
+        </section>
+        <section class="card">
+            <h3>Attention aux boucles infinies !</h3>
+            <p>Une boucle <code>while</code> mal définie peut ne jamais s’arrêter.</p>
+        </section>
+        <section class="card">
+            <h3>Avec une entrée utilisateur</h3>
+            <pre><code>mot = ""
+while mot != "python":
+    mot = input("Tape 'python' pour sortir : ")
+print("Bravo !")</code></pre>
+        </section>
+    
+    </main>
+</body>
+</html>

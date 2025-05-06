@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fafafa;
+    color: #262626;
+}
+nav {
+    background: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 a {
+    text-decoration: none;
+    color: #262626;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 600;
+}
+main {
+    padding: 2rem;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+pre {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+.collapsible:hover {
+    cursor: pointer;
+    background: #f0f0f0;
+}
